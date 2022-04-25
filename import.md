@@ -1,10 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
-title: "Import"
-author: "Ben Smith"
----
 
 ## Import
 
