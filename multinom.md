@@ -54,6 +54,5 @@ beta
 
 ### p-values
 ```r
-beta <- summary(model)$coefficients
 multinom_p(model)
 ```
