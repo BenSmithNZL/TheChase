@@ -20,7 +20,6 @@ regression.
 ``` r
 multinom_p <- function(model){
   model_summary <- summary(model)
-  model_summary$coefficients
   z <- model_summary$coefficients / model_summary$standard.errors
   p <- (1 - pnorm(abs(z), 0, 1)) * 2
   return(p)
